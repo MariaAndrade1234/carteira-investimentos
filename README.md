@@ -257,7 +257,3 @@ Boas práticas
 - Para deploys, prefira usar o mecanismo de secrets do provedor (AWS Secrets Manager,
   Google Secret Manager, HashiCorp Vault) em vez de variáveis de ambiente simples,
   quando a infraestrutura suportar.
-
-Se quiser, posso também gerar um exemplo pronto de workflow na pasta `.github/workflows/ci.yml`
-que use as mesmas convenções do repositório e inclua a etapa de checagem de tipos e linters.
-
